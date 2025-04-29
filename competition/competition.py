@@ -96,7 +96,7 @@ def download_competition_files(
 ):
     if use_competition_url:
         #target_url = f"https://agtechresearch.pythonanywhere.com/competitions/{url}/files/"
-        target_url = f"https://github.com/agtechresearch/LectureMLbasic/raw/main/housingprice/"
+        target_url = f"https://github.com/agtechresearch/LectureMLbasic/blob/main/housingprice/"        
         #target_url = f"http://127.0.0.1:8000/competitions/{url}/files/"
     else:
         target_url = url
