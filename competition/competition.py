@@ -91,12 +91,12 @@ def download_files(url, filename="dataset.zip"):
 
 
 def download_competition_files(
-    url="housingprice",
+    url="pestclassification",
     use_competition_url=True,
 ):
     if use_competition_url:
         #target_url = f"https://agtechresearch.pythonanywhere.com/competitions/{url}/files/"
-        target_url = f"https://github.com/agtechresearch/LectureMLbasic/blob/main/housingprice/"        
+        target_url = f"https://github.com/agtechresearch/LectureAlgorithm/raw/main/pestclassification/"
         #target_url = f"http://127.0.0.1:8000/competitions/{url}/files/"
     else:
         target_url = url
