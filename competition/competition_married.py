@@ -79,12 +79,12 @@ def download_files(url, filename="dataset.zip"):
         progress_bar.close()
 
     # 'data' 폴더 생성 (이미 존재하지 않는 경우)
-    if not os.path.exists("dataset"):
-        os.makedirs("dataset")
+    if not os.path.exists("datasetmarried"):
+        os.makedirs("datasetmarried")
 
     # 압축 해제 위치를 'dataset' 폴더로 지정
     with zipfile.ZipFile(filename, "r") as zip_ref:
-        zip_ref.extractall("./dataset")
+        zip_ref.extractall("./datasetmarried")
 
     # 다운로드 받은 .zip 파일 삭제
     os.remove(filename)
